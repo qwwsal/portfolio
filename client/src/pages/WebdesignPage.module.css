@@ -1,0 +1,328 @@
+/* WebdesignPage.module.css */
+
+/* Контейнер страницы */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  padding: 0 20px;
+  position: relative;
+}
+
+/* Секция услуг (портфолио проектов) */
+.services {
+  padding: 100px 0 60px;
+}
+
+.sectionContainer {
+  max-width: 1000px;
+  margin: 0 auto 80px;
+}
+
+.sectionContainer:last-child {
+  margin-bottom: 0;
+}
+
+.sectionTitle {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: var(--color-dark);
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  line-height: 1.3;
+}
+
+.titleNumber {
+  font-size: 1.2rem;
+  color: var(--color-accent);
+  opacity: 0.7;
+  min-width: 40px;
+}
+
+.sectionText {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: var(--color-text-light);
+  margin-bottom: 40px;
+  max-width: 800px;
+}
+
+.sectionDescription {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--color-text);
+  margin: 50px 0 20px;
+  text-align: center;
+}
+
+.svgPrice {
+  width: 100%;
+  max-width: 900px;
+  height: auto;
+  box-shadow: var(--shadow);
+  display: block;
+  margin: 0 auto;
+}
+
+/* Кнопка назад */
+.backButton {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 1000;
+    background: var(--color-accent);
+    color: var(--color-white);
+    border: none;
+    border-radius: 8px;
+    padding: 12px 24px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+/* Иконка стрелки */
+.arrowIcon {
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+
+.backButton:hover {
+  background: var(--color-dark);
+  transform: translateX(-5px);
+}
+
+
+/* Секция контакта */
+.contactSection {
+  text-align: center;
+  padding: 80px 40px;
+  background: linear-gradient(135deg, var(--color-light) 0%, #f8f5e8 100%);
+  border-radius: var(--border-radius);
+  margin: 100px 0;
+}
+
+.contactSection h3 {
+  font-size: 2.2rem;
+  color: var(--color-dark);
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.contactSection p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: var(--color-text-light);
+  max-width: 600px;
+  margin: 0 auto 40px;
+}
+
+.contactButton {
+  display: inline-block;
+  padding: 16px 40px;
+  background: var(--color-accent);
+  color: var(--color-white);
+  text-decoration: none;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 1.1rem;
+  transition: var(--transition);
+  border: 2px solid transparent;
+}
+
+.contactButton:hover {
+  background: var(--color-dark);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(126, 62, 0, 0.2);
+}
+
+.contactButton:active {
+  transform: translateY(0);
+}
+
+/* Футер страницы */
+.pageFooter {
+  background: var(--color-dark);
+  color: var(--color-white);
+  padding: 60px 0;
+  margin-top: 100px;
+}
+
+.footerContent {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+  text-align: center;
+}
+
+.footerLogo {
+  font-size: 2rem;
+  font-family: "Jersey 25", sans-serif;
+  font-weight: 400;
+  color: var(--color-white);
+}
+
+.footerText {
+  opacity: 0.8;
+  font-size: 1.1rem;
+  max-width: 400px;
+  line-height: 1.5;
+}
+
+.footerNav {
+  display: flex;
+  gap: 30px;
+  margin-top: 10px;
+}
+
+.footerLink {
+  color: var(--color-white);
+  opacity: 0.8;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: var(--transition);
+  padding: 8px 0;
+  position: relative;
+}
+
+.footerLink:hover {
+  opacity: 1;
+}
+
+.footerLink::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: var(--color-accent);
+  transition: width 0.3s ease;
+}
+
+.footerLink:hover::after {
+  width: 100%;
+}
+
+/* Адаптивность */
+@media (max-width: 992px) {
+  .sectionTitle {
+    font-size: 2rem;
+  }
+  
+  .contactSection {
+    padding: 60px 30px;
+    margin: 80px 0;
+  }
+  
+  .contactSection h3 {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 15px;
+  }
+  
+  .services {
+    padding: 80px 0 40px;
+  }
+  
+  .sectionContainer {
+    margin-bottom: 60px;
+  }
+  
+  .sectionTitle {
+    font-size: 1.7rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  
+  .titleNumber {
+    font-size: 1rem;
+  }
+  
+  .sectionText {
+    font-size: 1rem;
+  }
+  
+  .sectionDescription {
+    font-size: 0.8rem;
+    margin: 40px 0 15px;
+  }
+  
+  .contactSection {
+    padding: 50px 20px;
+    margin: 60px 0;
+  }
+  
+  .contactSection h3 {
+    font-size: 1.6rem;
+  }
+  
+  .contactSection p {
+    font-size: 1rem;
+  }
+  
+  .contactButton {
+    padding: 14px 30px;
+    font-size: 1rem;
+  }
+  
+  .pageFooter {
+    padding: 50px 0;
+    margin-top: 80px;
+  }
+  
+  .footerContent {
+    gap: 20px;
+  }
+  
+  .footerNav {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .sectionTitle {
+    font-size: 1.5rem;
+  }
+  
+  .services {
+    padding: 60px 0 30px;
+  }
+  
+  .contactSection {
+    padding: 40px 15px;
+    margin: 50px 0;
+  }
+  
+  .contactSection h3 {
+    font-size: 1.4rem;
+  }
+  
+  .pageFooter {
+    padding: 40px 0;
+    margin-top: 60px;
+  }
+  
+  .footerText {
+    font-size: 1rem;
+  }
+}
