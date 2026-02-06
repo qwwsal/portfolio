@@ -53,7 +53,7 @@ const WebdesignPage = () => {
                 </p>
                 <p className={styles.sectionDescription}></p>
                            <img 
-                  src="/image/polyvisual.svg"
+                  src="./image/polyvisual.svg"
                   className={styles.svgPrice}
                 />
               </div>

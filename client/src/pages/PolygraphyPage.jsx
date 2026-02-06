@@ -53,7 +53,7 @@ const WebdesignPage = () => {
                 </p>
                 <p className={styles.sectionDescription}></p>
                            <img 
-                  src="/image/polymenu.svg"
+                  src="./image/polymenu.svg"
                   className={styles.svgPrice}
                 />
               </div>
@@ -70,7 +70,7 @@ const WebdesignPage = () => {
                 </p>
                 <p className={styles.sectionDescription}></p>
                            <img 
-                  src="/image/polycard.svg"
+                  src="./image/polycard.svg"
                   className={styles.svgPrice}
                 />
               </div>
@@ -88,7 +88,7 @@ const WebdesignPage = () => {
                 </p>
                 <p className={styles.sectionDescription}></p>
                            <img 
-                  src="/image/polycost.svg"
+                  src="./image/polycost.svg"
                   className={styles.svgPrice}
                 />
               </div>

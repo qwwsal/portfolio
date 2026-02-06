@@ -52,27 +52,27 @@ const WebdesignPage = () => {
                 </p>
                 <p className={styles.sectionDescription}>Главная страница</p>
                            <img 
-                  src="/image/FirstPage.svg"
+                  src="./image/FirstPage.svg"
                   className={styles.svgPrice}
                 />
                 <p className={styles.sectionDescription}>Страница меню</p>
                 <img 
-                  src="/image/MenuPage.svg"
+                  src="./image/MenuPage.svg"
                   className={styles.svgPrice}
                 />
                 <p className={styles.sectionDescription}>Корзина</p>
                 <img 
-                  src="/image/CartPage.svg"
+                  src="./image/CartPage.svg"
                   className={styles.svgPrice}
                 />
                 <p className={styles.sectionDescription}>Страница с информацией</p>
                 <img 
-                  src="/image/InfoPage.svg"
+                  src="./image/InfoPage.svg"
                   className={styles.svgPrice}
                 />
                 <p className={styles.sectionDescription}>Страница контактов</p>
                 <img 
-                  src="/image/ContactPage.svg"
+                  src="./image/ContactPage.svg"
                   className={styles.svgPrice}
                 />
               </div>
@@ -90,27 +90,27 @@ const WebdesignPage = () => {
                 </p>
                 <p className={styles.sectionDescription}>Главная страница</p>
                            <img 
-                  src="/image/MainPageCV.png"
+                  src="./image/MainPageCV.png"
                   className={styles.svgPrice}
                 />
                 <p className={styles.sectionDescription}>Страница адресов</p>
                 <img 
-                  src="/image/AdressesPageCV.svg"
+                  src="./image/AdressesPageCV.svg"
                   className={styles.svgPrice}
                 />
                 <p className={styles.sectionDescription}>Страница услуг</p>
                 <img 
-                  src="/image/ServicesPageCV.png"
+                  src="./image/ServicesPageCV.png"
                   className={styles.svgPrice}
                 />
                 <p className={styles.sectionDescription}>Страница линз</p>
                 <img 
-                  src="/image/LensesPageCV.svg"
+                  src="./image/LensesPageCV.svg"
                   className={styles.svgPrice}
                 />
                 <p className={styles.sectionDescription}>Страница очков</p>
                 <img 
-                  src="/image/FramesPageCV.svg"
+                  src="./image/FramesPageCV.svg"
                   className={styles.svgPrice}
                 />
               </div>

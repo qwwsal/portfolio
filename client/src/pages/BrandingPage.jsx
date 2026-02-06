@@ -53,12 +53,12 @@ const WebdesignPage = () => {
                 </p>
                 <p className={styles.sectionDescription}></p>
                            <img 
-                  src="/image/DescriptionBB.svg"
+                  src="./image/DescriptionBB.svg"
                   className={styles.svgPrice}
                 />
                 <p className={styles.sectionDescription}>Применение логотипа на продукции</p>
                 <img 
-                  src="/image/DescriptionBB1.svg"
+                  src="./image/DescriptionBB1.svg"
                   className={styles.svgPrice}
                 />
               </div>

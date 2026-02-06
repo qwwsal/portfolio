@@ -32,25 +32,25 @@ const MainPage = () => {
     {
       id: 1,
       category: "Веб-дизайн",
-      imageUrl: "/image/coverwebdesign.svg",
+      imageUrl: "../image/coverwebdesign.svg",
       path: "/webdesign"
     },
     {
       id: 2,
       category: "Брендинг", 
-      imageUrl: "/image/coverbranding.svg",
+      imageUrl: "../image/coverbranding.svg",
       path: "/branding"
     },
     {
       id: 3,
       category: "Полиграфия",
-      imageUrl: "/image/coverpoly.svg",
+      imageUrl: "../image/coverpoly.svg",
       path: "/polygraphy"
     },
     {
       id: 4,
       category: "Соц.сети",
-      imageUrl: "/image/coversocials.svg",
+      imageUrl: "../image/coversocials.svg",
       path: "/socials"
     }
   ];
@@ -127,7 +127,7 @@ const MainPage = () => {
             <div className={styles.aboutImage}>
               <div className={styles.imagePlaceholder}>
                  <img 
-            src="/image/photo.svg"
+            src="./image/photo.svg"
             className={styles.photoIcon}
           />
               </div>
@@ -171,7 +171,7 @@ const MainPage = () => {
             <div className={styles.feature}>
               <div className={styles.featureIcon}>
           <img 
-            src="/image/focus.svg"
+            src="./image/focus.svg"
             className={styles.featureSvg}
           />
         </div>
@@ -184,7 +184,7 @@ const MainPage = () => {
             <div className={styles.feature}>
               <div className={styles.featureIcon}>
                  <img 
-            src="/image/speed.svg"
+            src="./image/speed.svg"
             className={styles.featureSvg}
           />
               </div>
@@ -197,7 +197,7 @@ const MainPage = () => {
             <div className={styles.feature}>
               <div className={styles.featureIcon}>
                  <img 
-            src="/image/support.svg"
+            src="./image/support.svg"
             className={styles.featureSvg}
           />
               </div>
@@ -264,7 +264,7 @@ const MainPage = () => {
             Услуги и цены
           </h2>
                      <img 
-            src="/image/pricelist.svg"
+            src="./image/pricelist.svg"
             className={styles.svgPrice}
           />
             
@@ -288,7 +288,7 @@ const MainPage = () => {
           <div className={styles.contactsGrid}>
             <div className={styles.contactCard}>
               <div className={styles.contactIcon}> <img 
-            src="/image/tg.svg"
+            src="./image/tg.svg"
             className={styles.contactIconImg}
           /></div>
               <h3 className={styles.contactTitle}>Telegram</h3>
@@ -306,7 +306,7 @@ const MainPage = () => {
             
             <div className={styles.contactCard}>
               <div className={styles.contactIcon}> <img 
-            src="/image/be.svg"
+            src="./image/be.svg"
             className={styles.contactIconImg}
           /></div>
               <h3 className={styles.contactTitle}>Behance</h3>
@@ -324,7 +324,7 @@ const MainPage = () => {
             
             <div className={styles.contactCard}>
               <div className={styles.contactIcon}> <img 
-            src="/image/in.svg"
+            src="./image/in.svg"
             className={styles.contactIconImg}
           /></div>
               <h3 className={styles.contactTitle}>Instagram</h3>
